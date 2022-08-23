@@ -1,0 +1,80 @@
+'''
+# comments are green and are used to code and start with a hashtag
+# python has no command for declaring variables
+# in python, a variable is assigned the first time you command it
+
+x = 5
+y = "jump"
+print (x)
+print (y)
+
+# variables have types
+x = 4 # x is a type of int (integer)
+x = "Sally" # x is now a type str (string)
+
+# casting
+# casting is to specify the data type of a variable
+x = str (3) # X will be string or word 3
+y = int (3) # y will be a integer or number 3
+z = float (3) # z will be 3.0 or decimal
+
+# how to print the type
+x = 5
+y = "john"
+print (type(x))
+print (type(y))
+
+# "" is the same as "" is "x" is the same as 'x'
+# case sensitivity 
+a = 4
+A = "sally"
+# A will not overwrite a
+
+# *naming variables*
+# a variable name must start with a letter or underscore
+# variable name cannot sart with a number
+# a variable name is case sensitive
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+mYVAR = "John"
+myVar2 = "John"
+
+# illegal namings
+2myvar = "John"
+my-var = "John"
+my var = "John"
+
+#assign multiple values
+x,y,z = "Orange", "Bannana", "Cherry"
+print (x)
+print (y)
+print (z)
+# assign 1 value to multiple variables
+x = y = z = "Orange"
+print (x)
+print (y)
+print (z)
+'''
+
+# package or library, random number
+import random
+print (random.randrange(1,10))
+
+# Concatination
+a = "Hello"
+b = "Patricia"
+c = a +" "+ b
+print (c)
+
+# String Format
+age = "36"
+txt = "My name is Patricia, I am "+ age
+print (txt)
+
+# Escape Character
+# To insert characters that are illegal in a string, use an escape character, in this case. the escape character is a backslash
+#text = "We're are fabulous" Unicorns "From amazingland"
+text = 'Were are fabulous\'Unicorns\'From amazingland'
+print (text)
